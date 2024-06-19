@@ -1,0 +1,30 @@
+.custom-link {
+  text-decoration: none !important;
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* text hover */
+.text.hovered {
+  color: chocolate; /* Change the color when hovered */
+  transform: skewX(-20deg);
+}
+
+.title.hovered {
+  color: rgb(253, 3, 3);
+}
+
+
+/* ******ZOOM Hover Effect****** */
+.zoom-on-hover {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1);
+}
